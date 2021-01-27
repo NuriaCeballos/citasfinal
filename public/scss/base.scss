@@ -1,0 +1,49 @@
+
+body{
+    background-image: url("https://i.pinimg.com/originals/b3/4f/0e/b34f0e3e3e5955979814016a01b99344.jpg");
+    color:rgb(119, 3, 119);
+    font-weight: 800;
+   background-repeat:no-repeat;
+   background-size:cover;    
+}
+
+header {
+    position: fixed;
+    top:0px;
+    left:0px;
+    width: 100%;
+    z-index: 9999;
+    font-family: "Brankovic", serif;
+    nav{
+        background-color: rgb(139, 139, 134);
+        border-bottom:5px solid #0f0e09;
+        
+    }    
+    a,a:hover{
+        color:#141201;
+        margin-left:10px;
+    }
+}
+
+main{
+    font-family: "Brankovic", serif;
+    margin-top:200px;
+    .container{
+        border-color: rgb(247, 7, 247);
+        
+        min-height: 500px;
+        .row{
+           
+            min-height: 16px;
+            div[class^='col-']{
+                min-height: 100px;
+                
+            }
+           
+        }
+    }
+    
+}
+
+
+

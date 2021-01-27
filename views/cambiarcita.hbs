@@ -1,0 +1,39 @@
+<main>
+    <form class="row g-3 needs-validation" method="post" action="/citas/consultar">
+        <div class="col-md-4 ml-4">
+            <label for="validationCustom01" class="form-label">Ingrese el localizador:</label>
+            <input type="text" class="form-control" id="validationCustom01" name="idcambiar" required>
+            <div class="col-12">
+                <button class="btn btn-warning mt-4 ml-4" type="submit">Enviar</button>
+            </div>
+    </form>
+    <div class="container">
+        <div class="row col-12 mt-4">
+
+            <div class="card" style="width: 35rem; ">
+                <ul class="list-group list-group-flush;">
+
+
+                    <li class="list-group-item">Nombre: {{idLocalizada.firstname}}</li>
+                    <li class="list-group-item">Apellido: {{idLocalizada.lastname}}</li>
+                    <li class="list-group-item">Email: {{idLocalizada.email}}</li>
+                    <li class="list-group-item">Teléfono: {{idLocalizada.phone}}</li>
+                    <li class="list-group-item">Día de la cita: {{idLocalizada.date}}</li>
+                    <li class="list-group-item">Loc: {{idLocalizada.id}}</li>
+
+                </ul>
+            </div>
+            <div class="col-12">
+
+                <a href="/citas/eliminar" class="btn btn-warning  ml-4 " type="button">Eliminar</a>
+            </div>
+            <div class="row">
+                <div class="col-12">
+                    <h2>Para volver pulsar abajo</h2>
+                    <a href='/'>volver al formulario</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</main>

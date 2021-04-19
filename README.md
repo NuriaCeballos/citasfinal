@@ -1,3 +1,13 @@
 # citas
 # citasfinal
-Se trata de una web de citas que escoge una cita da un código QR y puede eliminar la cita. Hay un archivo .json que hace de base de datos. Se usa handlerbar, boostramp y está creado con el módelo vista controladro (MVC)
+###
+MVC
+### npm packages
+
+ express: 4.17.1
+ 
+ express-handlebars: 5.2.0
+ 
+ qrcode: 1.4.4
+ 
+ uuidv4: 6.2.6
